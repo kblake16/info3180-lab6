@@ -5,3 +5,38 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+.news_list{
+    display: grid;
+    grid: "1 2 3";
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+
+.news_item{
+    background-color: white;
+    border-top: green 5px;
+    border-top-style: solid;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #888888;
+    width: 300px;
+    height: 350px;
+    padding: 10px;
+}
+
+.news_item img{
+    width: 275px;
+    height: 150px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.news_item h2
+{
+    font-size: 15px;
+}
+
+.news_item p
+{
+    font-size: 10px;
+}
